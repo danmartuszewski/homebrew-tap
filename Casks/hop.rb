@@ -3,7 +3,7 @@ cask "hop" do
   name "hop"
   desc "Fast, elegant SSH connection manager"
   homepage "https://github.com/danmartuszewski/hop"
-  version "1.1.1"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hop" do
   on_macos do
     on_intel do
       url "https://github.com/danmartuszewski/hop/releases/download/v#{version}/hop_darwin_amd64.tar.gz"
-      sha256 "6e8961c1c2183813c09657e06b6ea6e8c1ebf30fb60171a18d00755b89a319ae"
+      sha256 "546d1254efe6ba6308464befc079c66c8f0d4f2f4cb0c9ab66320f54f330f82b"
     end
     on_arm do
       url "https://github.com/danmartuszewski/hop/releases/download/v#{version}/hop_darwin_arm64.tar.gz"
-      sha256 "a68444ffb4948ed1ca7acd27456bac7c2569aad9489f0d4aa607f5c93f73f4e3"
+      sha256 "5dcd85148af1dd1eda9abe79cdd050f51342dd7b7d1731b5bd8475a4fb7ef451"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/danmartuszewski/hop/releases/download/v#{version}/hop_linux_amd64.tar.gz"
-      sha256 "2e6ca3319050646177547e8c035806b05d22a5d6e6975fec4d99aa2ab85b3291"
+      sha256 "fe031589604ebbf02e3770978f7e0eef0cf8152f1471807acf39a7678b2bd103"
     end
     on_arm do
       url "https://github.com/danmartuszewski/hop/releases/download/v#{version}/hop_linux_arm64.tar.gz"
-      sha256 "b984067a4284742216513874cdc7cd6c1c6523e9400c809d1f3f833c5d0cb5f8"
+      sha256 "8409fb283f11d8be3452bc9f0f5c745b0b702fd5ebb747d45269089529b94ba8"
     end
   end
 
